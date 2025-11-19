@@ -1,3 +1,5 @@
+"use client";
+import { motion as m } from "motion/react";
 import Image from "next/image";
 import circleBg from "@/public/images/home/BgCircleBrandTrusted.webp";
 
@@ -58,26 +60,36 @@ const BrandTrusted = () => {
   const startAngle = -90;
 
   return (
-    <div className="w-full flex flex-row-reverse pt-5 sm:py-16 md:py-26 items-center justify-center text-white px-4 lg:gap-5 md:px-0 md:pt-26">
-      <div className="flex-1 min-w-[150px] max-w-[670px] px-2">
-        <h1 className="font-bold leading-[0.9] text-lg sm:text-5xl md:text-5xl lg:text-7xl">
-          Trusted by
-        </h1>
-        <div className="leading-none mb-0.5 md:my-2 lg:my-5">
-          <span className="font-bold block text-5xl sm:text-9xl md:text-10xl lg:text-[13.5rem] tracking-tight">
-            30++
-          </span>
-          <span className="font-semibold block sm:text-3xl md:text-5xl md:-mt-1">
-            Brands
-          </span>
-        </div>
-        <p className="text-[10px] sm:text-base md:text-2xl font-light text-white/80 max-w-xl">
-          From first launch to lasting impact, we&apos;ve guided 30+ brands to
-          spark genuine connections across every channel.
-        </p>
-      </div>
+    <div className="w-full flex flex-row-reverse py-7 sm:py-16 md:py-26 items-center justify-center text-white px-4 lg:gap-5 md:px-0 md:pt-26">
+      <m.div
+        initial={{ opacity: 0, scale: 0.9 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.4, delay: 0.3 }}
+        viewport={{ once: true }}
+        className="flex-1 min-w-[150px] max-w-[670px] px-2">
+          <h1 className="font-bold leading-[0.9] text-lg sm:text-5xl md:text-5xl lg:text-7xl">
+            Trusted by
+          </h1>
+          <div className="leading-none mb-0.5 md:my-2 lg:my-5">
+            <span className="font-bold block text-5xl sm:text-9xl md:text-10xl lg:text-[13.5rem] tracking-tight">
+              30++
+            </span>
+            <span className="font-semibold block sm:text-3xl md:text-5xl md:-mt-1">
+              Brands
+            </span>
+          </div>
+          <p className="text-[10px] sm:text-base md:text-2xl sm:font-light text-white/80 max-w-xl">
+            From first launch to lasting impact, we&apos;ve guided 30+ brands to
+            spark genuine connections across every channel.
+          </p>
+      </m.div>
 
-      <div className="flex-1 min-w-[150px] max-w-[590px] flex justify-center  lg:justify-start">
+      <m.div
+        initial={{ opacity: 0, scale: 0.9 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.4, delay: 0.3 }}
+        viewport={{ once: true }}
+        className="flex-1 min-w-[150px] max-w-[590px] flex justify-center  lg:justify-start">
         <div className="relative flex items-center justify-center w-[38vw] min-w-[150px] max-w-[220px] sm:max-w-[320px] md:max-w-[520px] lg:max-w-[720px] aspect-square rounded-full shadow-lg shadow-black/30 backdrop-blur-xs overflow-hidden">
           <Image
             src={circleBg}
@@ -124,7 +136,7 @@ const BrandTrusted = () => {
             );
           })}
         </div>
-      </div>
+      </m.div>
 
     </div>
   );

@@ -5,6 +5,10 @@
   --font-neworder: var(--font-neworder);
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 .card-scroll::-webkit-scrollbar {
   width: 6px;
 }

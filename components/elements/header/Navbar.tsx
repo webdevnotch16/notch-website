@@ -42,7 +42,9 @@ const Navbar = () => {
 
   return (
     <header className={`z-50 ${nav ? "bg-[#00000046] backdrop-blur-lg" : "bg-transparent"} fixed flex justify-between items-start md:items-end top-0 p-4 sm:px-7 md:px-14 md:py-8 lg:px-16 w-full duration-500`}>
-        <Image src={notchLogo} alt="Notch Initial Logo" width={100} height={100} className='w-24 h-auto md:w-28 md:h-auto'/>
+        <Link href={"/"} className='w-fit'>
+          <Image src={notchLogo} alt="Notch Initial Logo" width={100} height={100} className='w-24 h-auto md:w-28 md:h-auto'/> 
+        </Link>
 
         <nav className='hidden md:flex items-center'>
         <ul className="flex gap-2 md:gap-6 items-center justify-center w-full py-2.5 text-[#c9c9c9] text-xs md:text-xl font-extralight tracking-wider">
