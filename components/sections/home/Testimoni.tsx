@@ -117,10 +117,10 @@ const Testimoni = () => {
           </h2>
         </div>
       </div>
-      <a href="#top" className="absolute bottom-20 right-20 text-center">
-        <MdKeyboardDoubleArrowUp className="text-7xl text-red-notch" />
-        <p className="text-red-notch m-0">Back to</p>
-        <p className="text-red-notch m-0">top</p>
+      <a href="#top" className="absolute bottom-5 right-5 leading-none text-center flex flex-col items-center hover:-translate-y-1 duration-150">
+        <MdKeyboardDoubleArrowUp className="text-4xl md:text-7xl text-red-notch" />
+        <p className="text-red-notch -my-1 text-xs md:text-lg">Back to</p>
+        <p className="text-red-notch m-0 text-xs md:text-lg">top</p>
       </a>
     </section>
   );
