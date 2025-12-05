@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { motion as m, AnimatePresence } from "framer-motion";
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 
 type ImageModalProps = {
   selectedImage: {
@@ -14,14 +14,14 @@ type ImageModalProps = {
 
 const ImageModal: React.FC<ImageModalProps> = ({ selectedImage, closeModal }) => {
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (selectedImage !== null) {
-      document.body.style.overflow = "hidden";
+    document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = "unset";
+    document.body.style.overflow = "unset";
     }
     return () => {
-      document.body.style.overflow = "unset";
+    document.body.style.overflow = "unset";
     };
   }, [selectedImage]);
 

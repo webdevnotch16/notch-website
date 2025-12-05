@@ -38,10 +38,10 @@ const OtherProjects = () => {
                 key={index}
                 src={src}
                 alt={`${title} ${index + 1}`}
-                width={100}
-                height={100}
-                sizes="100"
-                className="cursor-pointer w-full h-full active:scale-95 hover:scale-105 hover:rounded-2xl hover:shadow-2xl duration-300"
+                width={300}
+                height={300}
+                sizes="(max-width:768px) 140px, 180px"
+                className="cursor-pointer w-[140px] h-[140px] sm:w-[180px] sm:h-[180px] object-cover active:scale-95 hover:scale-105 hover:rounded-xl duration-300"
                 onClick={() => openModal({ title, index, images: { src } })}
               />
             ))}

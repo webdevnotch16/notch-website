@@ -1,5 +1,6 @@
 "use client";
 import { useRouter } from 'next/navigation'
+import { motion as m } from "motion/react"
 
 type Props = {
     className: string,
@@ -7,9 +8,17 @@ type Props = {
 }
 
 const BackButton = ({className, children}: Props) => {
-    const router = useRouter();
+  const router = useRouter();
   return (
-    <button  className={className} onClick={() => router.back()}>{children}</button>
+    <m.button
+      initial={{ opacity: 0, x: -5 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.4, ease: "easeOut" }}
+      className={className}
+      onClick={() => router.back()}
+    >
+    {children}
+    </m.button>
   )
 }
 
