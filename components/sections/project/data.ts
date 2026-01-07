@@ -37,7 +37,7 @@ export const allProjects: ProjectInterface[] = [
                                 </h3>
                             </div>
                         </div>`,
-        detailDescription: ["Life is full of challenges, from childhood to adulthood, and we always find our own ways to overcome them. we keep moving forward, and those experiences become lasting memories. Kondin x Nobrnds captures all these stories and memories in every pair of shoes, symbolizing resilience and the journey through life."],
+        detailDescription: ["Life is full of challenges, from childhood to adulthood, and we always find our own ways to overcome them. <b>we keep moving forward</b/>, and those experiences become lasting memories. Kondin x Nobrnds captures all these stories and memories in every pair of shoes, <b>symbolizing resilience and the journey through life.</b>"],
         detailImages: [
             "/images/projects/konidin/konidin1.webp",
             "/images/projects/konidin/konidin2.webp",
@@ -45,7 +45,7 @@ export const allProjects: ProjectInterface[] = [
             "/images/projects/konidin/konidin4.webp"
         ],
         challenge: "Bridging two distinct categories, pharmaceutical (Konidin) and lifestyle fashion (NoBrands), while keeping the collaboration relevant, relatable, and sales-driven without diluting each brand&apos;s identity. The challenge was to merge functional and emotional values into one authentic campaign.",
-        solution: "Through the theme <b>&quot;Unstoppable Step! Keep Movin&apos; Past All the Limits,&quot;</b> the collaboration positioned both brands as symbols of resilience and progress. The message was amplified <b>through digital content, third-party collaborations, and interactive activities</b> designed to <b>spark curiosity, encourage participation, and drive engagement</b> across diverse audience segments.",
+        solution: "Through the theme <b>&quot;Unstoppable Step! Keep Movin&apos; Past All the Limits,&quot;</b> the collaboration positioned both brands as symbols of <b>resilience and progress.</b> The message was amplified through <b>digital content, third-party collaborations, and interactive activities</b> designed to <b>spark curiosity, encourage participation, and drive engagement</b> across diverse audience segments.",
         theResult: `<div className="w-full py-2 sm:py-4 md:py-6 lg:py-10 px-4 sm:px-6 md:px-8 lg:px-12">
                         <div className="flex flex-col lg:flex-row items-stretch max-w-7xl mx-auto">
 
@@ -152,9 +152,62 @@ export const allProjects: ProjectInterface[] = [
             "/images/projects/konidin/nobrndsXkonidin.webp",
             "/images/projects/konidin/konidin4.webp"
         ],
-        challenge: "Life is full of challenges, from childhood to adulthood, and we always find our own ways to overcome them.we <b>keep moving forward</b>, and those experiences become lasting memories. Kondin x Nobrnds captures all these stories and memories in every pair of shoes, <b>symbolizing resilience and the journey through life.</b>",
-        solution: "Life is full of challenges, from childhood to adulthood, and we always find our own ways to overcome them.we <b>keep moving forward</b>, and those experiences become lasting memories. Kondin x Nobrnds captures all these stories and memories in every pair of shoes, <b>symbolizing resilience and the journey through life.</b>",
-        theResult: ``
+        challenge: "Building awareness and driving high-quality traffic from the Indonesian market for an international healthcare brand.",
+        solution: "Executed a performance-driven digital strategy combining META Ads, Google Ads, and Programmatic Popup Ads, supported by ongoing SEO maintenance to strengthen organic visibility, traffic growth, and keyword performance.",
+        theResult: `<div className="w-full py-2 sm:py-4 md:py-6 lg:py-10 px-4 sm:px-6 md:px-8 lg:px-12">
+                        <div className="flex flex-col lg:flex-row items-stretch max-w-5xl mx-auto">
+
+                            <div className="lg:hidden w-full h-px bg-white my-4"></div>
+
+                            <div className="flex-1 py-6 md:py-8 lg:py-10 px-4 sm:px-6 md:px-8">
+                                <h3 className="text-white text-base sm:text-lg md:text-xl lg:text-2xl font-semibold mb-4 sm:mb-6 md:mb-8 text-center">
+                                Organic Traffic
+                                </h3>
+
+                                <div className="space-y-4 sm:space-y-6 md:space-y-8 text-left">
+                                    <div className="flex items-center lg:justify-center gap-3 sm:gap-4 md:gap-5">
+                                        <div className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-none">
+                                        192%
+                                        </div>
+                                        <div className="text-white text-lg md:text-xl lg:text-2xl xl:text-3xl font-normal md:font-light leading-tight">
+                                        from the <span className="md:hidden">target</span>
+                                        <p className="hidden md:block">target</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="hidden md:block w-1 bg-white mx-2 lg:mx-4"></div>
+                            <div className="lg:hidden w-full h-px bg-white my-4"></div>
+
+                            <div className="flex-1 py-6 md:py-8 lg:py-10 px-4 sm:px-6 md:px-8">
+                                <h3 className="text-white text-base sm:text-lg md:text-xl lg:text-2xl font-semibold mb-4 sm:mb-6 md:mb-8 text-center">
+                                Keywords Ranking
+                                </h3>
+
+                                <div className="space-y-4 sm:space-y-6 md:space-y-8 text-left">
+                                    <div className="flex items-center gap-3 sm:gap-4 md:gap-5">
+                                        <div className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-none">
+                                        33%
+                                        </div>
+                                        <div className="text-white text-lg md:text-xl lg:text-2xl xl:text-3xl font-normal md:font-light leading-tight">
+                                        from the <span className="md:hidden">target</span>
+                                        <p className="hidden md:block">target</p>
+                                        </div>
+                                    </div>
+
+                                    <div className="flex flex-col gap-1 md:gap-2">
+                                    <p className="text-white tracking-wide text-base md:text-lg lg:text-xl xl:text-lg font-normal md:font-light">
+                                        <span className="font-extrabold">(5 Keywords from total 15 keywords)</span> which target
+                                    </p>
+                                    <p className="text-white tracking-wide text-base md:text-lg lg:text-xl xl:text-lg font-normal md:font-light">
+                                        <span className="font-extrabold">Top 10 (for total 3 keywords)</span> already achieved
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>`
     },
     {
         id: "as-cac-684",
@@ -164,15 +217,15 @@ export const allProjects: ProjectInterface[] = [
         title: "Astro E-Commerce",
         carouselDescription: "Creating a seamless shopping experience for modern consumers.",
         campaignName: ``,
-        detailDescription: ["Astro Goods is a whitelabel brand created by Astro Quick Commerce that offers a wide range of product categories to meet various consumer needs. From everyday food items to baby products and even a poo-tion spray, Astro Goods has something for everyone.","We create a comprehensive content and visual service to engage audience and potential users and encourage them to make purchases through the Astro apps or e-commerce account."],
+        detailDescription: ["Astro Goods is a whitelabel brand created by Astro Quick Commerce that offers a <b>wide range of product categories</b> to meet various consumer needs. <b>From everyday food items to baby products and even a poo-tion spray, Astro Goods has something for everyone.</b>","We create a comprehensive content and visual service to engage audience and potential users and encourage them to make purchases through the Astro apps or e-commerce account."],
         detailImages: [
             "/images/projects/konidin/konidin1.webp",
             "/images/projects/konidin/konidin2.webp",
             "/images/projects/konidin/nobrndsXkonidin.webp",
             "/images/projects/konidin/konidin4.webp"
         ],
-        challenge: "Life is full of challenges, from childhood to adulthood, and we always find our own ways to overcome them.we <b>keep moving forward</b>, and those experiences become lasting memories. Kondin x Nobrnds captures all these stories and memories in every pair of shoes, <b>symbolizing resilience and the journey through life.</b>",
-        solution: "Life is full of challenges, from childhood to adulthood, and we always find our own ways to overcome them.we <b>keep moving forward</b>, and those experiences become lasting memories. Kondin x Nobrnds captures all these stories and memories in every pair of shoes, <b>symbolizing resilience and the journey through life.</b>",
+        challenge: "Astro Goods needs to increase their attractiveness and creativity in digital to be the consumer's 'Top of Mind' when they need quality yet affordable prices product.",
+        solution: "Astro Goods focuses on making “Always Good” more relatable through functional storytelling, community-driven content, and engaging product launch experiences, supported by credible third parties to build stronger awareness and top-of-mind presence in digital.",
         theResult: ``
     },
     {
@@ -183,7 +236,7 @@ export const allProjects: ProjectInterface[] = [
         title: "WOW Spageti",
         carouselDescription: "Creating a culinary experience like no other.",
         campaignName: ``,
-        detailDescription: ["On March 2024, WOW Spageti is launching an exciting new innovation WOW Spageti Aglio e Olio. This new variant brings restaurant quality deliciousness to your table, a savory and spicy kick with authentic Italian garlic, all ready in just 3 minutes. It's a true WOW experience for spaghetti lovers. The launch of the new Aglio e Olio flavor includes a full-scale execution, from product development to KOL and buzzer activation."],
+        detailDescription: ["On March 2024, WOW Spageti is launching an exciting new innovation <b>WOW Spageti Aglio e Olio.</b> This new variant <b>brings restaurant quality deliciousness to your table,</b> a savory and spicy kick with authentic Italian garlic, all ready <b>in just 3 minutes.</b> It's a true WOW experience for spaghetti lovers. The launch of the new Aglio e Olio flavor includes a full-scale execution, from product development to <b>KOL and buzzer activation.</b>"],
         detailImages: [
             "/images/projects/konidin/konidin1.webp",
             "/images/projects/konidin/konidin2.webp",
@@ -242,8 +295,8 @@ export const allProjects: ProjectInterface[] = [
                             </div>
 
                             <p className="text-white text-base lg:text-xl font-normal leading-relaxed">
-                                with an exceptional{" "}
-                                <span className="font-semibold">Rp11 CPV</span> and{" "}
+                                with an exceptional
+                                <span className="font-semibold">Rp11 CPV</span> and
                                 <span className="font-semibold">
                                 47.70% total 6s view rate.
                                 </span>
@@ -263,16 +316,24 @@ export const allProjects: ProjectInterface[] = [
         campaignName: `<h2 className="w-full text-center text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold pt-8 md:pt-20">
                             Waktu Indonesia Donasi (WID)
                         </h2>`,
-        detailDescription: ["Launched the Waktu Indonesia Donasi campaign to inspire potential donors to support children in need. The campaign leverages the popularity of Waktu Indonesia Belanja, an e-commerce platform campaign. Both initiatives are designed to capture audience interest through compelling messages and visuals, encouraging them to donate and contribute to a meaningful cause."],
+        detailDescription: ["Launched the <b>Waktu Indonesia Donasi</b> campaign to <b>inspire potential donors to support children in need. The campaign leverages  the popularity of <b>Waktu Indonesia Belanja</b>, an e-commerce platform campaign. Both initiatives are designed to capture audience interest through compelling messages and visuals, encouraging them to donate and contribute to a meaningful cause."],
         detailImages: [
             "/images/projects/konidin/konidin1.webp",
             "/images/projects/konidin/konidin2.webp",
             "/images/projects/konidin/nobrndsXkonidin.webp",
             "/images/projects/konidin/konidin4.webp"
         ],
-        challenge: "Life is full of challenges, from childhood to adulthood, and we always find our own ways to overcome them.we <b>keep moving forward</b>, and those experiences become lasting memories. Kondin x Nobrnds captures all these stories and memories in every pair of shoes, <b>symbolizing resilience and the journey through life.</b>",
-        solution: "Life is full of challenges, from childhood to adulthood, and we always find our own ways to overcome them.we <b>keep moving forward</b>, and those experiences become lasting memories. Kondin x Nobrnds captures all these stories and memories in every pair of shoes, <b>symbolizing resilience and the journey through life.</b>",
-        theResult: ``
+        challenge: "Donation initiatives often struggle to attract attention, especially when audiences are more focused on commercial e-commerce events",
+        solution: "Launch Waktu Indonesia Donasi by tapping into the popularity of Waktu Indonesia Belanja, instantly gaining relevance and visibility.",
+        theResult: `<div className="py-2 md:py-0 w-full flex flex-col text-center gap-2 sm:gap-3 md:gap-4 lg:gap-5 xl:gap-6 px-4 sm:px-6 md:px-8 lg:px-12">
+                        <p className="w-full font-semibold sm:font-bold text-white text-xs sm:text-base md:text-lg lg:text-xl xl:text-2xl">Waktu Indonesia Donasi campaign reached</p>
+                        <p className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
+                            <span className="font-bold text-2xl md:text-4xl lg:text-6xl xl:text-7xl">Rp43,805,000</span> donations
+                        </p>
+                        <p className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
+                            out of <span className="font-bold text-2xl md:text-4xl lg:text-6xl xl:text-7xl">Rp3,000,000</span>
+                        </p>
+                    </div>`
     },
 ];
 
