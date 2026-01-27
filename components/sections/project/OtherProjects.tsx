@@ -41,7 +41,7 @@ const OtherProjects = () => {
                   width={100}
                   height={100}
                   sizes="100"
-                  className="relative w-1/2 sm:w-1/4 h-auto shrink-0 cursor-pointer active:scale-95 hover:scale-105 hover:rounded-2xl hover:shadow-3xl duration-300 overflow-hidden hover:z-10"
+                  className="relative container mx-auto px-3 w-1/2 sm:w-1/4 h-auto shrink-0 cursor-pointer active:scale-95 hover:scale-105 hover:rounded-2xl hover:shadow-3xl duration-300 overflow-hidden hover:z-10"
                   onClick={() => openModal({ title, index, images: { src } })}
               />
             ))}
